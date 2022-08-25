@@ -1,0 +1,92 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+h1 h2 h3 h4{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500 bold;
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-align: center;
+}
+p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: 200 bold;
+	color: rgba(0,0,0,0.64)
+}
+a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: 300 bold;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+/*reset css*/
+.container-fluid{
+	width: 100%;
+	padding: 0 16px;
+}
+.container-lg{
+	width: 1200px;
+	margin: 0 auto;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+	padding: 12px;	
+}
+.justify-between{
+	justify-content: space-between
+}
+.align-iterm-c{
+	align-items: center
+}
+.justify-center{
+	justify-content: center
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%
+}
+/* CSS Document */
+
